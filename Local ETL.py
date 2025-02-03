@@ -59,7 +59,8 @@ productReviews = []
 i = 1
 
 #Make the limit for i the number of pages you want to take reviews from
-while i <= 1:
+reviewPages = 1
+while i <= reviewPages:
     time.sleep(randomNumber)
     
     x = 0
